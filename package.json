@@ -1,10 +1,13 @@
-{
+{ "homepage": "https://ayushm3018.github.io/ABSI-MS-login",
   "name": "loginpage",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "scripts" : "npm run dev",
+    "deploy" : "gh-pages -d dist",
+    "predeply" : "npm run build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
